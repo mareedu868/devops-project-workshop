@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4710c1dd-9633-4f40-9045-afa10dd2a8ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kubernetes/deploy.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kubernetes/deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kubernetes/namespace.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kubernetes/secret.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kubernetes/service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/hosts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/jenkins-master-setup.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/v1-jenkins-slave-setup.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/v2-jenkins-slave-setup.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/eks/eks.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/eks/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/eks/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/sg_eks/output.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/sg_eks/sg.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/sg_eks/variables.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/terraform/vpc/v1-ec2.tf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2UPx45tZjjiZJ5ZhLT40XEG1j5v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4710c1dd-9633-4f40-9045-afa10dd2a8ea" name="Changes" comment="" />
+      <created>1692854827293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692854827293</updated>
+    </task>
+    <servers />
+  </component>
+</project>
