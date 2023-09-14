@@ -1,0 +1,8 @@
+pipeline { 
+    agent {
+        node {
+            label 'maven-agent'
+        }
+        
+    }
+}
