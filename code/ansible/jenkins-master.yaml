@@ -4,24 +4,17 @@
   tasks: 
   - name: Download jenkins repo key.
     apt_key: 
-      url: curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+      url: https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
       state: present
 
   - name: Add jenkins repository.
     apt_repository:
       repo: 'deb https://pkg.jenkins.io/debian-stable binary/'
       state: present
-  
-  - name: Start jenkins service.
-    service:
-      name: jenkins
-      state: stopped
-  
+   
   - name: Install openjdk.
     apt:
-      name: openjdk-11-jre
-      state: absent
-      name: openjdk-18-jre
+      name: openjdk-17-jre
       state: present
       update_cache: yes
   
@@ -29,6 +22,7 @@
     apt: 
       name: jenkins
       state: present
+      update_cache: yes
   
   - name: Start jenkins service.
     service:
