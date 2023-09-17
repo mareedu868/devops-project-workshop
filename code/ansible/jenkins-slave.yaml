@@ -18,6 +18,12 @@
       src: /opt/apache-maven-3.9.4-bin.tar.gz
       dest: /opt
       remote_src: yes
+
+  - name: Install docker
+    apt:
+      name: docker.io
+      state: present
+
   
  
 
