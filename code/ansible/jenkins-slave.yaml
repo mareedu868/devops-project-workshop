@@ -24,6 +24,16 @@
       name: docker.io
       state: present
 
+  - name: Start docker
+    apt:
+      name: docker
+      state: started
+
+  - name: Enable docker service
+    service:
+      name: docker
+      enabled: yes
+
   
  
 
